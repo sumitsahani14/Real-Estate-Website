@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Listings — Halcyon Estates</title>
+<meta name="description" content="Current residences represented by Halcyon Estates across Willowmere, Seabrook, Standish Valley and the Old Mill District.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="wordmark">Halcyon <span>Estates</span></a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="listings.html" aria-current="page">Listings</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+  </div>
+</header>
+
+<main>
+
+  <section class="section" style="padding-bottom:48px; border-bottom:none;">
+    <div class="wrap">
+      <p class="eyebrow">Current listings</p>
+      <h1 style="font-size:clamp(2rem,4vw,3rem);">Every home we currently represent</h1>
+      <p>No pagination, no expired listings showing up as "just sold" — this is the full, current roster.</p>
+    </div>
+  </section>
+
+  <div class="filter-bar">
+    <select data-filter-type aria-label="Filter by property type">
+      <option value="all">All types</option>
+      <option value="House">House</option>
+      <option value="Condo">Condo</option>
+      <option value="Townhome">Townhome</option>
+    </select>
+    <select data-filter-city aria-label="Filter by town">
+      <option value="all">All towns</option>
+      <option value="Willowmere">Willowmere</option>
+      <option value="Seabrook">Seabrook</option>
+      <option value="Standish Valley">Standish Valley</option>
+      <option value="Old Mill District">Old Mill District</option>
+    </select>
+    <select data-filter-beds aria-label="Minimum bedrooms">
+      <option value="any">Any bedrooms</option>
+      <option value="1">1+ bed</option>
+      <option value="2">2+ beds</option>
+      <option value="3">3+ beds</option>
+      <option value="4">4+ beds</option>
+      <option value="5">5+ beds</option>
+    </select>
+    <select data-filter-price aria-label="Maximum price">
+      <option value="any">Any price</option>
+      <option value="1000000">Under $1M</option>
+      <option value="2000000">Under $2M</option>
+      <option value="3000000">Under $3M</option>
+      <option value="5000000">Under $5M</option>
+    </select>
+    <span class="filter-count" data-filter-count></span>
+  </div>
+
+  <section class="section" style="padding-top:48px;">
+    <div class="wrap">
+      <div class="property-grid" data-listing-grid></div>
+      <div class="empty-state" data-empty-state>
+        <h3>Nothing matches those filters</h3>
+        <p style="margin:0 auto;">Try widening your price range or town, or <a href="contact.html" style="color:var(--brass); border-bottom:1px solid var(--brass);">tell us what you're looking for</a> and we'll reach out when it comes up.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="wordmark">Halcyon <span>Estates</span></div>
+        <p style="margin-top:14px; max-width:34ch;">Considered homes, quietly exceptional. Serving Willowmere, Seabrook, Standish Valley and the Old Mill District since 1994.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="listings.html">Listings</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+15550142200">(555) 014-2200</a></li>
+          <li><a href="mailto:hello@halcyonestates.example">hello@halcyonestates.example</a></li>
+          <li>118 Founders Walk, Old Mill District</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay informed</h4>
+        <p style="margin-bottom:0;">New listings, once a month, no noise.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); this.reset(); alert('Thanks — you are on the list.');">
+          <input type="email" placeholder="Email address" required aria-label="Email address">
+          <button type="submit">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> Halcyon Estates. All rights reserved.</span>
+      <span>Licensed Real Estate Brokerage</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
