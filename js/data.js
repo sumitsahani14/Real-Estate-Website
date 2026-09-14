@@ -22,7 +22,7 @@ const LISTINGS = [
       "https://images.pexels.com/photos/15828308/pexels-photo-15828308.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "https://images.pexels.com/photos/31060396/pexels-photo-31060396.jpeg?auto=compress&cs=tinysrgb&w=1400"
     ],
-    agent: { name: "Aarav Mehta", role: "Senior Property Advisor", phone: "+91 141 412 6800", email: "aarav@halcyonestates.in", photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80" }
+    agent: { name: "Raghav Rathore", role: "Managing Director", phone: "+91 141 412 6800", email: "raghav@halcyonestates.in", photo: "https://images.pexels.com/photos/3400567/pexels-photo-3400567.jpeg?auto=compress&cs=tinysrgb&w=500" }
   },
   {
     id: "udaipur-lakeview-residence",
@@ -46,7 +46,7 @@ const LISTINGS = [
       "https://images.pexels.com/photos/36562003/pexels-photo-36562003.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "https://images.pexels.com/photos/19223696/pexels-photo-19223696.jpeg?auto=compress&cs=tinysrgb&w=1400"
     ],
-    agent: { name: "Meera Kapoor", role: "Property Advisor", phone: "+91 294 451 2380", email: "meera@halcyonestates.in", photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80" }
+    agent: { name: "Ananya Mehta", role: "Senior Property Advisor", phone: "+91 294 451 2380", email: "ananya@halcyonestates.in", photo: "https://images.pexels.com/photos/7580835/pexels-photo-7580835.jpeg?auto=compress&cs=tinysrgb&w=500" }
   },
   {
     id: "ahmedabad-modern-apartment",
@@ -70,7 +70,7 @@ const LISTINGS = [
       "https://images.pexels.com/photos/23534110/pexels-photo-23534110.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "https://images.pexels.com/photos/31060396/pexels-photo-31060396.jpeg?auto=compress&cs=tinysrgb&w=1400"
     ],
-    agent: { name: "Rohan Shah", role: "Broker Associate", phone: "+91 79 4892 6400", email: "rohan@halcyonestates.in", photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80" }
+    agent: { name: "Arjun Shah", role: "Residential Advisor", phone: "+91 79 4892 6400", email: "arjun@halcyonestates.in", photo: "https://images.pexels.com/photos/35977121/pexels-photo-35977121.jpeg?auto=compress&cs=tinysrgb&w=500" }
   },
   {
     id: "pune-row-house",
@@ -94,7 +94,7 @@ const LISTINGS = [
       "https://images.pexels.com/photos/23534110/pexels-photo-23534110.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "https://images.pexels.com/photos/19223696/pexels-photo-19223696.jpeg?auto=compress&cs=tinysrgb&w=1400"
     ],
-    agent: { name: "Meera Kapoor", role: "Property Advisor", phone: "+91 294 451 2380", email: "meera@halcyonestates.in", photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80" }
+    agent: { name: "Ananya Mehta", role: "Senior Property Advisor", phone: "+91 294 451 2380", email: "ananya@halcyonestates.in", photo: "https://images.pexels.com/photos/7580835/pexels-photo-7580835.jpeg?auto=compress&cs=tinysrgb&w=500" }
   },
   {
     id: "indore-garden-home",
@@ -118,7 +118,7 @@ const LISTINGS = [
       "https://images.pexels.com/photos/9285535/pexels-photo-9285535.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "https://images.pexels.com/photos/31060396/pexels-photo-31060396.jpeg?auto=compress&cs=tinysrgb&w=1400"
     ],
-    agent: { name: "Kabir Malhotra", role: "Property Advisor", phone: "+91 11 4142 6800", email: "kabir@halcyonestates.in", photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80" }
+    agent: { name: "Kavya Malhotra", role: "Property Advisor", phone: "+91 11 4142 6800", email: "kavya@halcyonestates.in", photo: "https://images.pexels.com/photos/20552542/pexels-photo-20552542.jpeg?auto=compress&cs=tinysrgb&w=500" }
   },
   {
     id: "jaipur-heritage-apartment",
@@ -142,7 +142,7 @@ const LISTINGS = [
       "https://images.pexels.com/photos/31060396/pexels-photo-31060396.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "https://images.pexels.com/photos/9285535/pexels-photo-9285535.jpeg?auto=compress&cs=tinysrgb&w=1400"
     ],
-    agent: { name: "Aarav Mehta", role: "Senior Property Advisor", phone: "+91 141 412 6800", email: "aarav@halcyonestates.in", photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80" }
+    agent: { name: "Raghav Rathore", role: "Managing Director", phone: "+91 141 412 6800", email: "raghav@halcyonestates.in", photo: "https://images.pexels.com/photos/3400567/pexels-photo-3400567.jpeg?auto=compress&cs=tinysrgb&w=500" }
   },
   {
     id: "bengaluru-courtyard-villa",
@@ -166,7 +166,7 @@ const LISTINGS = [
       "https://images.pexels.com/photos/19223696/pexels-photo-19223696.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "https://images.pexels.com/photos/36562003/pexels-photo-36562003.jpeg?auto=compress&cs=tinysrgb&w=1400"
     ],
-    agent: { name: "Rohan Shah", role: "Broker Associate", phone: "+91 79 4892 6400", email: "rohan@halcyonestates.in", photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80" }
+    agent: { name: "Arjun Shah", role: "Residential Advisor", phone: "+91 79 4892 6400", email: "arjun@halcyonestates.in", photo: "https://images.pexels.com/photos/35977121/pexels-photo-35977121.jpeg?auto=compress&cs=tinysrgb&w=500" }
   },
   {
     id: "chandigarh-sector-10-home",
@@ -190,7 +190,7 @@ const LISTINGS = [
       "https://images.pexels.com/photos/15828308/pexels-photo-15828308.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "https://images.pexels.com/photos/31060396/pexels-photo-31060396.jpeg?auto=compress&cs=tinysrgb&w=1400"
     ],
-    agent: { name: "Kabir Malhotra", role: "Property Advisor", phone: "+91 11 4142 6800", email: "kabir@halcyonestates.in", photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80" }
+    agent: { name: "Kavya Malhotra", role: "Property Advisor", phone: "+91 11 4142 6800", email: "kavya@halcyonestates.in", photo: "https://images.pexels.com/photos/20552542/pexels-photo-20552542.jpeg?auto=compress&cs=tinysrgb&w=500" }
   }
 ];
 
