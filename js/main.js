@@ -34,7 +34,7 @@ function propertyCard(p) {
   return `
     <a class="property-card" href="property.html?id=${p.id}">
       <div class="thumb">
-        <img src="${p.images[0]}" alt="${p.title} exterior" loading="lazy">
+        <img src="${p.images[0]}" alt="${p.title} exterior" loading="lazy" onerror="this.onerror=null; this.src='https://images.pexels.com/photos/35114454/pexels-photo-35114454.jpeg?auto=compress&cs=tinysrgb&w=1400';">
         <span class="tag">${p.status}</span>
       </div>
       <div class="info">
@@ -122,6 +122,7 @@ function renderPropertyDetail() {
   sideWraps.forEach((img, i) => {
     const src = property.images[i + 1] || property.images[0];
     img.src = src;
+    img.onerror = () => { img.onerror = null; img.src = property.images[0]; };
     img.alt = `${property.title} — view ${i + 2}`;
   });
 
